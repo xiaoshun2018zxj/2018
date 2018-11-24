@@ -1,0 +1,1 @@
+select d.pk_defdoc,d.name ,d.code from bd_defdoc  d inner join bd_defdoclist l on d.pk_defdoclist = l.pk_defdoclist where l.code='ztxny0007';
